@@ -1,0 +1,34 @@
+.eds-enablement-1 {
+  padding: 24px;
+  background-color: rgb(211 195 195);
+  border: 2px solid #0a0a0a;
+}
+
+.eds-enablement-1.session-two {
+  border: 2px solid #e65e14;
+}
+
+.eds-enablement-1-row {
+  padding: 16px 0;
+}
+
+.eds-enablement-1-row-divider {
+  margin-top: 16px;
+  border-top: 1px solid rgb(10 10 10 / 20%);
+}
+
+@media (min-width: 600px) {
+  .eds-enablement-1 {
+    padding: 32px;
+  }
+
+  .eds-enablement-1-row {
+    padding: 24px 0;
+  }
+}
+
+@media (min-width: 900px) {
+  .eds-enablement-1 {
+    padding: 40px;
+  }
+}
